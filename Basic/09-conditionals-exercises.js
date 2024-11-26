@@ -51,7 +51,7 @@ console.log(message);
 
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
-let mes = "marzo"
+let mes = "diciembre"
 
 if (mes == "diciembre" || mes == "enero" || mes == "febrero") {
     console.log("Nos encontramos en verano");
@@ -66,14 +66,65 @@ if (mes == "diciembre" || mes == "enero" || mes == "febrero") {
     console.log("Nos encontramos en primavera");
 }
 
-    
-
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
-
+if (mes == "enero" || mes=="marzo" || mes=="mayo" || mes=="julio" || mes== "agosto"|| mes== "octubre"||mes=="diciembre"){
+    console.log(`El mes de ${mes} tiene 31 dias`);
+    
+}else if (mes== "febrero"){
+    console.log(`El mes de ${mes} tiene 28 dias`);
+    
+}else {
+    console.log(`El mes de ${mes} tiene 30 dias`);
+}
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
 
+let language = "english"
+let languageName
+
+switch (language) {
+    case "english":
+        languageName = "Idioma: ingles"
+        break
+    case spanish:
+        languageName = "Idioma: Español"
+        break
+   
+    default:
+        languageName = "idioma incorrecto"
+}
+console.log(languageName);
+
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
+mes = "marzo"
+let estacion
+
+switch(mes){
+    case "diciembre":
+    case "enero":
+    case "febrero":
+        estacion = "Estacion: verano"
+        break
+    case "marzo":
+    case "abril":
+    case "mayo":
+        estacion = "Estacion: otoño"
+        break
+    case "junio":
+    case "julio":
+    case "agosto":
+        estacion= "Estacion: invierno"
+        break
+    case "septiembre":
+    case "octubre":
+    case "noviembre":
+        estacion= "Estacion: primavera"
+        break
+    default:
+        estacion = "Estacion indefinida"
+}
+console.log(estacion);
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+
