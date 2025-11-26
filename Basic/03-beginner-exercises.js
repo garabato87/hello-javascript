@@ -51,7 +51,7 @@ const myName2 = "Braian Alvarez"
 const myAgeConst = 27
 const myHeightConst = 1.71
 const imStudentConst = true
-// 9. A continuación, modifica los valores de las constantes ------- Dan error, las aconstantes no se pueden modificar
+// 9. A continuación, modifica los valores de las constantes ------- Dan error, las constantes no se pueden modificar
 /*
 const myName2 = "Braian Orlando Alvarez" 
 const myAgeConst = 28
